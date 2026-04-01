@@ -19,7 +19,7 @@ const SpendingBreakdown = () => {
         </div>
       </div>
       
-      <div style={{ flex: 1, width: '100%', minHeight: 0 }}>
+      <div style={{ flex: 1, width: '100%', minHeight: 0, minWidth: 0, overflow: 'hidden' }}>
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} barSize={20}>
             <XAxis 
