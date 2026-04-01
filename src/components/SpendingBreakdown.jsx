@@ -19,8 +19,9 @@ const SpendingBreakdown = () => {
         </div>
       </div>
       
-      <div style={{ flex: 1, width: '100%', minHeight: 0, minWidth: 0, overflow: 'hidden' }}>
-        <ResponsiveContainer width="100%" height="100%">
+      <div style={{ flex: 1, width: '100%', height: '100%', minHeight: 0, minWidth: 0, position: 'relative' }}>
+        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
+          <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} barSize={20}>
             <XAxis 
               dataKey="category" 
@@ -39,7 +40,8 @@ const SpendingBreakdown = () => {
               ))}
             </Bar>
           </BarChart>
-        </ResponsiveContainer>
+          </ResponsiveContainer>
+        </div>
       </div>
     </div>
   );
