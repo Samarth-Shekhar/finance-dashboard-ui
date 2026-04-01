@@ -1,5 +1,6 @@
 # Finance Dashboard UI
 
+🟢 **Live Demo:** [https://finance-dashboard-ui-three-inky.vercel.app/](https://finance-dashboard-ui-three-inky.vercel.app/)
 This project is a clean, interactive, and responsive finance dashboard built with React and Vanilla CSS. It features a modern dark mode design with glassmorphic elements and neon green accents, allowing users to track their financial activity seamlessly. 
 
 ## Overview of Approach
