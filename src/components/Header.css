@@ -1,0 +1,32 @@
+.header {
+  padding-bottom: 8px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+}
+
+.header p {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.glass-pill {
+  background: rgba(35, 35, 35, 0.8);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.glass-pill:hover {
+  background: rgba(50, 50, 50, 0.8);
+  border-color: var(--accent-green);
+}

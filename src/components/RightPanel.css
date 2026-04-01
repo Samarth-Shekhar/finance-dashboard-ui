@@ -1,0 +1,140 @@
+.right-panel-col {
+  /* It already has layout inherited from App.css */
+  color: var(--text-main);
+}
+
+.panel-header {
+  margin-bottom: 24px;
+}
+
+.btn-toggle {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.btn-toggle button {
+  padding: 6px 12px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.btn-toggle button.active {
+  background: var(--accent-green);
+  color: #000;
+}
+
+.timeline-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.search-box input {
+  background: transparent;
+  width: 80px;
+  color: var(--text-main);
+  font-size: 13px;
+  transition: width 0.3s;
+}
+
+.search-box input:focus {
+  width: 120px;
+}
+
+.filter-btn {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--text-muted);
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-main);
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.tx-card {
+  display: flex;
+  align-items: center;
+  background: rgba(30, 31, 32, 0.5);
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.tx-card:hover {
+  transform: translateY(-2px);
+  background: rgba(40, 41, 42, 0.8);
+}
+
+.tx-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.tx-details {
+  flex: 1;
+  margin-left: 12px;
+}
+
+.tx-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.tx-time {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.tx-amount {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tx-amount.positive {
+  color: var(--accent-green);
+}
+
+.tx-amount.negative {
+  color: var(--text-main);
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
